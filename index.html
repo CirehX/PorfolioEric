@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Fuente Montserrat-->    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Indie+Flower&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Eric Arancibia Porfolio</title>
+</head>
+
+<body>
+    <header>
+       <!-- portada foto de perfil menu --> 
+        <div class="portada">
+            <img id="sobre_mi" class="banner" src="img/bannerV3.png" alt="">
+        </div>
+        
+        <div class="foto_personal">
+            <img class="foto_perfil" src="img/fotoPerfil.png" alt="">
+        </div>
+        
+        <nav class="menu">
+            <ul>
+                <li class="menu_item"><a href="#sobre_mi">Sobre mi</a></li>
+                <li class="menu_item"><a href="#habilidades">Habilidades</a></li>
+                <li class="menu_item"><a href="#mi_formacion">Formacion</a></li>
+                <li class="menu_item"><a href="#mi_proyecto">Proyectos</a></li>
+                <li class="menu_item"><a href="#mi_contacto">Contacto</a></li>
+                <li class="menu_item" id="correo"><a href="">eric.arancibia@hotmail.com</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    
+    <main>
+
+       <!-- Seccion principal presentacion  --> 
+        <section class="seccion_principal">
+            <div class="presentacion">
+                <h1>¡Hola! Soy Eric y transformo ideas en realidad digital.</h1>
+                <br>
+                <p>
+                    Me apasiona la tecnología y como diseñador web mi objetivo es brindar soluciones digitales personalizadas con calidad, diseño y funcionalidad.
+                    Tu visión es única y podemos convertirla en una experiencia digital a tu medida.
+                </p>
+            </div>
+
+         <!-- Rede-->            
+            <nav class="redes">
+                <ul>
+                    <li class="menu_redes">
+                        <a href="https://github.com/CirehX" target="_blank">Github</a>
+                        <img src="img/githubIcono.png" alt="">
+                    
+                    </li>
+                    <li class="menu_redes">
+                        <a href="https://www.linkedin.com/in/eric-arancibia-dis" target="_blank">Linkedin</a>
+                        <img src="img/linkeding.png" alt="">
+                    </li>
+                    <li class="menu_redes">
+                        <a href="https://www.instagram.com/arancibia.eric?igsh=djQyZWVsZnpnOWQy" target="_blank">Instagram</a>
+                        <img class="img_insta" src="img/InstaIcono.png" alt="">
+
+                    </li>
+                    <li class="menu_redes">
+                        <a href="">Curriculum</a>
+                        <img src="img/curriculum.png" alt="">
+                    
+                    </li>
+                    
+                </ul>
+            </nav>
+
+            <!-- Sección de habilidades -->
+            <div class="skill" id="habilidades">
+                <h2 class="titulo_skill">HABILIDADES</h2>
+                <div class="img_skill">
+                <img class="iconos" src="img/html.png" alt="">
+                <img class="iconos" src="img/css.png" alt="">
+                <img class="iconos" src="img/JS.png" alt="">
+                <img class="iconos" src="img/react.png" alt="">
+                </div>
+            </div>
+            
+            <!-- Sección de formacion -->
+            <div class="formacion" id="mi_formacion">
+                <h2>FORMACION</h2>
+                <div class="formacion-contenido">
+                    <a href="https://www.aluracursos.com/" target="_blank">
+                        <img src="img/FormacionAlura.png" alt="Formación en Alura">
+                    </a>                    
+                    <div class="descripcion">
+                        <h3>Principiante en Programación - Front End</h3>
+                        <p>2023 - En curso</p>
+                    </div>
+                </div>
+            </div>
+           
+            <!-- Sección de proyectos -->
+            <div class="proyectos" id="mi_proyecto">
+                <h2 class="titulo_proyectos">PROYECTOS</h2>
+                <div class="contenedor_proyecto">
+                    <img class="img_proyecto" src="img/WebBarberiaAlura.png" alt="">
+                    
+                    <div class="info_proyecto">
+                        <div class="texto_proyecto">
+                            <h2>Barberia Alura</h2>
+                            <p>Practica Front End</p>
+                        </div> 
+                        <div class="botones_proyecto">
+                            <button class="boton_repositorio" onclick="irARepositorioBarberiaAlura()">Ir a repositorio</button>
+                            <button class="boton_web" onclick="irAWebBarberiaAlura()"> Ir a Web</button>
+                        </div>
+                    </div>
+                </div>  
+
+                <div class="contenedor_proyecto">
+                    <img class="img_proyecto" src="img/WebJuegoSecreto.png"" alt="">
+                    
+                    <div class="info_proyecto">
+                        <div class="texto_proyecto">
+                            <h2>Adivina el numero.</h2>
+                            <p>Practica Front End Alura.</p>
+                        </div>    
+                        <div class="botones_proyecto">
+                            <button class="boton_repositorio" onclick="irARepositorioNumeroSecreto()">Ir a repositorio</button>
+                            <button class="boton_web" onclick="irAWebNumeroSecreto()"> Ir a Web</button>
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="contenedor_proyecto">
+                    <img class="img_proyecto" src="img/WebTextoEncriptado.png"" alt="">
+                    
+                    <div class="info_proyecto">
+                        <div class="texto_proyecto">
+                            <h2>Encriptador de texto.</h2>
+                            <p>Challenge Oracle.</p>
+                        </div>            
+                        <div class="botones_proyecto">
+                            <button class="boton_repositorio" onclick="irARepositorioEncriptador()">Ir a repositorio</button>
+                            <button class="boton_web" onclick="irAWebEncriptador()"> Ir a Web</button>
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="contenedor_proyecto">
+                    <img class="img_proyecto" src="img/WebBarberia.png"" alt="">
+                    
+                    <div class="info_proyecto">
+                        <div class="texto_proyecto">
+                            <h2>Practica Web Barberia.</h2>
+                            <p>En proceso.</p>
+                        </div>
+                            
+                        <div class="botones_proyecto">
+                            <button class="boton_repositorio" onclick="irARepositorioNuevaBarberia()">Ir a repositorio</button>
+                            <button class="boton_web" onclick="irAWebNuevaBarberia()"> Ir a Web</button>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            <!-- Sección de contacto -->
+            <div class="contacto" id="mi_contacto">
+
+                <div class="formulario">
+                    <img class="img_contacto" src="img/ImagenContacto.png" alt="">
+                   
+                    <form class="formaluario_contacto">
+                        <h2>Contacto</h2>
+                        <p>Gracias por llegar hasta aca. Si quieres contactarnos, dejanos tu consulta y te responderemos a la brevedad. <br> Saludos !</p>
+                        
+                        <input type="text" id="nombre" name="nombre" required placeholder="Nombre">
+                                   
+                        <input type="email" id="email" name="email" required placeholder="E-mail">
+                        
+                        <input type="text" id="asunto" name="asunto" required placeholder="Asunto">
+                              
+                        <textarea id="mensaje" name="mensaje" rows="4" required placeholder="Mensaje"></textarea>
+            
+                        <button class="boton_enviar" type="submit">Enviar mensaje</button>
+                    </form>
+                </div>
+        </section>
+    </main>
+<!-- footer -->
+    <footer>
+        <h2>Desarrollado por Eric Arancibia - 2024</h2>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

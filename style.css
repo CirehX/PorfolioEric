@@ -1,0 +1,546 @@
+
+/*font-family: "Montserrat", sans-serif;*/
+
+body{
+    font-family: "Montserrat", sans-serif;   
+}
+
+/*Header*/
+
+.portada{
+    display: flex;
+    width: 100%;
+    height: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7); /* Aplicamos una sombra difuminada */
+}
+
+.foto_perfil{
+    position: absolute;
+    top: 130px;
+    left: 30px;
+    margin: 3px;
+    border: 5px solid white;
+    width: 180px;
+    height: auto;
+    border-radius: 100%;   
+}
+
+.menu{
+    text-align: right;
+    margin-right: 30px;
+}
+
+.menu_item{
+    display: inline-block;
+    margin: 7px;
+    margin-top: 20px;
+    font-size: 15px;   
+    transition: all 500ms ease;
+    
+}
+
+.menu_item:hover{
+    color: #8D23BB;
+    font-weight: bold;
+    
+}
+
+/*main*/
+
+/*Presentacion*/
+
+.seccion_principal {
+    background-color: white;
+}
+
+.presentacion {
+    margin: 60px 20px 0 20px;
+    width: auto;
+    height: 130px;
+    font-size: 20px;
+}
+
+/*Menu redes*/
+
+.redes {
+    font-size: 18px;
+    margin-bottom: 80px;
+}
+  
+.redes ul {
+    display: flex; /* Utilizamos flexbox para alinear los elementos en una fila */
+    justify-content: center; /* Centramos horizontalmente los elementos dentro del contenedor */
+    padding: 0; /* Quitamos el relleno de la lista */    
+}
+
+.redes ul li{
+    font-size: 12px;
+    padding: 20px;
+    transition: all 500ms ease;
+}
+
+.redes ul li:hover{
+    color: #8D23BB;
+    font-weight: bold;
+}
+
+.menu_redes img {
+   position: absolute;
+   width: 10px;
+   margin-left: 10px;
+}
+
+/*Skill*/
+
+.skill{
+    
+    height: 350px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7); /* Aplicamos una sombra difuminada */
+    border-radius: 10px; /* Añadir bordes redondeados para un aspecto más suave */
+    position: relative;
+    background-color: #ECEEFF;
+
+}
+
+
+.titulo_skill{
+    font-weight: bold;
+    text-align: center;
+    font-size: 28px;
+    padding-top: 40px;
+    
+}
+
+.img_skill{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-top: 50px;
+}
+ 
+.img_skill img{
+    width: 120px;
+    
+}
+
+.iconos {
+    border-radius: 10px; /* Agregamos bordes redondeados a las imágenes */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Aplicamos una sombra difuminada */
+}
+
+/*Formacion*/
+
+.formacion{
+    height: 400px;
+    text-align: center;
+    margin: 70px 0 50px 0;    
+}
+
+.formacion img{
+    display: flex;
+    text-align: left;
+    width: 300px;
+    border: solid;
+}
+
+.formacion h2 {
+    font-weight: bold;
+    font-size: 28px;
+    padding-bottom: 20px;
+    
+}
+
+.formacion-contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formacion-contenido img {
+    width: 550px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.formacion-contenido img:hover{
+    transform: scale(1.02);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.descripcion {
+    text-align: center;
+    padding: 10px;
+}
+
+.descripcion h3 {
+    
+    font-size: 18px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.descripcion p {
+    
+    font-size: 16px;
+}
+
+
+
+/*Proyectos*/   
+
+.titulo_proyectos{
+    font-weight: bold;
+    font-size: 28px;
+    padding: 50px 0 50px 0;
+      
+}
+
+.proyectos{
+    background-color: #ECEEFF;    
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);    
+}
+
+/*contenedor de proyectos*/
+
+.contenedor_proyecto{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    padding-bottom: 80px;
+}
+
+.img_proyecto {
+    width: 630px;
+    height: 320px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-right: 50px;
+     
+}
+
+.info_proyecto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.texto_proyecto h2{
+    
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.texto_proyecto p{
+    
+    font-size: 18px;
+}
+
+.boton_repositorio {
+    font-weight: bold;
+    font-size: 15px;
+    margin: 20px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #73338A;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.boton_repositorio:hover{
+    background-color: #73338A;
+    color: white;   
+}
+
+.boton_web{
+    font-weight: bold;
+    font-size: 15px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #73338A;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.boton_web:hover{
+    background-color: #FCF4FF;
+    color: black;
+    border: 2px solid #73338A;
+}
+
+
+/*Contacto*/
+
+.formulario{
+    
+    display: flex;
+    align-items: center; 
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.img_contacto{
+    width: 550px;
+    height: auto;
+    margin-right: 20px;
+}
+
+/*Item del Formulario*/
+
+.formaluario_contacto {
+    display: flex;
+    flex-direction: column;    
+    justify-content:space-between;
+    padding: 20px;
+}
+
+.formaluario_contacto h2{
+    
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.formaluario_contacto p {
+    
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.formaluario_contacto input{
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+.formaluario_contacto ::placeholder{
+    font-weight: bold;
+}
+
+.formaluario_contacto input:focus,
+.formaluario_contacto textarea:focus {
+     outline: none; /* Eliminar el contorno alrededor del elemento */
+}
+
+#mensaje {
+    height: 120px; /* Establece la altura deseada */
+    resize: none; /* Evita que el usuario pueda cambiar el tamaño */
+    margin: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 20px; 
+}
+
+.boton_enviar{
+    font-weight: bold;
+    font-size: 15px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #73338A;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-left: 40%;
+    margin-top: 20px;
+}
+
+.boton_enviar:hover{
+    background-color: #FCF4FF;
+    color: black;
+    border: 2px solid #73338A;
+}
+
+/*footer*/
+
+footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 50px;
+    background-color: #777;
+}
+
+footer h2{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 1080px) {
+    
+    .portada{
+        width: 1024px;
+    }
+    
+    .menu_item{
+        display: none;
+    }
+
+    .presentacion{
+        margin: 80px 20px 20px 30px;
+    }
+    .redes{
+        margin-left: 3%;
+        margin-bottom: 20px;
+    }
+
+    .redes ul li{
+        font-size: 12px;
+        padding: 20px;  
+    }
+
+    .redes ul li img{
+        position: absolute;
+        width: 10px;
+        margin-left: 10px;
+    }
+
+   .contenedor_proyecto{
+        flex-direction: column;
+        padding-bottom: 5px;   
+   } 
+
+   .img_proyecto{
+        margin: 10px 0 20px 0px;
+        width: auto;
+        height: auto;
+   }
+
+   .texto_proyecto h2{
+        font-size: 18px;
+   }
+
+   .texto_proyecto p{
+        font-size: 12px;
+   }
+
+   .boton_repositorio{
+        font-size: 12px;
+        width: 100px;
+        height: 40px;
+        
+   }
+
+   .botones_proyecto{
+        margin-right: 25px;
+   }
+
+   .boton_web{
+        font-size: 12px;
+        width: 100px;
+        height: 40px;
+   }
+
+   .contacto{
+        display: flex;
+        flex-direction: column;
+        ;
+   }
+
+   .img_contacto{
+        display: none;
+   }    
+}
+
+
+@media only screen and (max-width: 580px){
+    
+    .redes{
+        margin-top: 60px;
+    }
+
+    .skill{
+        height: auto;
+    }
+    .img_skill{
+        margin-top: 50px;
+        flex-direction: column;
+     }
+     
+     .iconos{
+        margin-bottom: 50px;
+     }
+
+     .formacion-contenido a img{
+        width: 400px;
+     }
+}
+
+@media only screen and (max-width: 380px){
+
+    .redes{
+        margin-top: 120px;
+        margin-right: 25px;
+    }
+
+    .redes ul li{
+        font-size: 12px;
+        padding: 15px;  
+    }
+
+    .redes ul li img{
+        margin: 0 5px 0 2px;
+    }
+
+    .skill{
+        height: auto;
+    }
+    .img_skill{
+        margin-top: 50px;
+        flex-direction: column;
+     }
+     .formacion-contenido a img{
+        width: 300px;
+     }
+
+     .formacion {
+        height: auto;
+     }
+  
+     .descripcion h3{
+        font-size: 16px;
+     }
+
+     .descripcion p{
+        font-size: 12px;
+        font-weight: bold;
+     }
+
+     .botones_proyecto{
+        align-items: center;
+        margin: 0;
+     }
+
+     .boton_repositorio{
+        font-size: 10px;
+        width: 100px;
+        margin: 20px 0 10px 0;
+     }
+
+     .boton_web{
+        font-size: 10px;
+        width: 100px;
+     }
+     .boton_enviar{
+        margin: 10px 0px 1px 66px;
+     }
+}
